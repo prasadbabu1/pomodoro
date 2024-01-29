@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+.pomodoro-timer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.timer-display {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.timer-controls button {
+  font-size: 1rem;
+  margin: 0 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* .pomodoro-timer{
+  border: 2px solid black;
+  padding: 15px;
+  background-color:lightsteelblue;
+  border-radius: 10px;
+}
+
+.timer-display{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.cell{
+   border: 2px solid black;
+  padding: 25px;
+  background-color:lightsteelblue;
+  border-radius: 10px;
+}
+.maincell{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
